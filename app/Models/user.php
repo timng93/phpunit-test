@@ -13,4 +13,10 @@ class User {
     public function getFirstName() {
         return $this->first_name;
      }
+    public function setLastName($lastName) {
+        $this->last_name = $lastName;
+    }
+    public function getLastName() {
+        return $this->last_name;
+    }
 }
